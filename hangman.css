@@ -1,0 +1,133 @@
+.main-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(76, 59, 228);
+    display:flex;
+    justify-content:center;
+}
+.stand-header{
+    width:100px;
+    height:2px;
+    background-color:black;
+}
+.ground{
+    width:200px;
+    height:2px;
+    background-color: black;
+}
+.large-rod{
+    height: 300px;
+    width:2px;
+    background-color: black;
+}
+.stand-body{
+    flex-direction:row;
+}
+.stand{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.man{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border:5px solid grey;
+}
+.neck{
+    width:7px;
+    height:100px;
+    background-color: grey;
+}
+.man-body{
+    display: flex;
+    flex-direction:row;
+}
+.left{
+    width:7px;
+    height:50px;
+    background-color: grey;
+    transform:rotate(20deg);
+    transform-origin: 30% 10%;
+}
+.right{
+    width:7px;
+    height:50px;
+    background-color: grey;
+    transform:rotate(340deg);
+    transform-origin: 30% 10%;
+}
+.leg{
+    display: flex;
+    flex-direction:row;
+}
+.hanger{
+    width:2px;
+    height:30px;
+    background-color: black;
+}
+.letter-row{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.button{
+    width:50px;
+    height: 50px;
+    background-color:rgb(25, 126, 41);
+    color:black;
+    font-size: 20px;
+    font-weight:bold;
+    border:2px solid rgb(0, 0, 0);
+}
+.random-word{
+    display: flex;
+    font-size: 35px;
+    font-weight: 1000;
+    justify-content: center;
+    color:rgb(11, 55, 75);
+}
+.button:hover{
+    filter:brightness(120%)
+}
+.button:active{
+    filter:brightness(80%);
+}
+.result{
+    font-size: 50px;
+    color: rgb(11, 55, 75);
+    font-weight: 500;
+    font-family:fantasy;
+    display: flex;
+    justify-content: center;    
+}
+.new-word{
+    width : 100px;
+    height: 60px;
+    color:rgb(11, 55, 75);
+    background-color:rgb(38, 175, 61);
+    font-family: fantasy;
+    font-weight: 500px;
+    font-size: large;
+    border:2px solid black;
+}
+.new-word:hover{
+    filter: brightness(120%);
+}
+.new-word:active{
+    filter: brightness(80%);
+}
+.hint-container{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.hint-para{
+    color:rgb(11, 55, 75);
+    font-family:fantasy;
+    font-size: large;
+    font-weight: 500;
+}
