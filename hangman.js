@@ -99,6 +99,7 @@ document.querySelector(".new-word").addEventListener("click",function(){
         else{
             document.querySelector(`.${bodyParts[i]}`).style.backgroundColor = "grey";
         }
+        bodyPartsCount = 0;
     }
     document.querySelector(".hint").style.visibility = "hidden";
     document.querySelector(".hint-para").innerText = "";
